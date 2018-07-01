@@ -12,6 +12,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
 <body>
 <div id="app">
@@ -42,7 +46,7 @@
                            aria-expanded="false"
                         >Blog</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Category</a></li>
+                            <li><a href="{{route('admin.category.index')}}">Category</a></li>
                             <li><a href="#">Materials</a></li>
                         </ul>
                     </li>
