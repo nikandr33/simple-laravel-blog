@@ -36,7 +36,7 @@
                </a>
            </div>
            <div class="col-sm-6">
-               <a href="#" class="btn btn-block btn-default">Create material</a>
+               <a href="{{route('admin.article.create')}}" class="btn btn-block btn-default">Create material</a>
                <a href="#" class="list-group-item">
                    <h4 class="list-group-item-heading">First Material</h4>
                    <p class="list-group-item-text">
